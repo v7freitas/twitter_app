@@ -1,0 +1,77 @@
+{
+  "feed": [
+    {
+      "id": 1,
+      "from": {
+        "type": "like",
+        "content": "Kieron Dotson and Zack John liked"
+      },
+      "author": {
+        "username": "usuario1",
+        "verify": true,
+        "name": "Fulano de Tal",
+        "avatar_url": "https://github.com/barbosamaatheus.png"
+      },
+      "timestamp": "2024-04-22T10:30:00Z",
+      "content": "Este é um tweet de exemplo.",
+      "likes": 20,
+      "retweets": 5,
+      "comments": [
+        {
+          "id": 1,
+          "author": {
+            "verify": true,
+            "username": "usuario2",
+            "name": "Ciclano",
+            "avatar_url": "https://exemplo.com/avatar2.jpg"
+          },
+          "timestamp": "2024-04-22T11:00:00Z",
+          "content": "Legal!"
+        },
+        {
+          "id": 2,
+          "author": {
+            "verify": false,
+            "username": "usuario3",
+            "name": "Beltrano",
+            "avatar_url": "https://exemplo.com/avatar3.jpg"
+          },
+          "timestamp": "2024-04-22T11:10:00Z",
+          "content": "Concordo!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "from": {
+        "type": "retweet",
+        "content": "Kieron Dotson Retweeted"
+      },
+      "author": {
+        "verify": false,
+        "username": "usuario4",
+        "name": "Outro Usuário",
+        "avatar_url": "https://github.com/barbosamaatheus.png"
+      },
+      "timestamp": "2024-04-22T11:45:00Z",
+      "content": "Seguindo em frente...",
+      "likes": 10,
+      "retweets": 2,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "author": {
+        "verify": false,
+        "username": "usuario4",
+        "name": "Outro Usuário",
+        "avatar_url": "https://github.com/barbosamaatheus.png"
+      },
+      "timestamp": "2024-04-22T11:45:00Z",
+      "content": "Novo Tweet",
+      "likes": 10,
+      "retweets": 2,
+      "comments": []
+    }
+  ]
+}
